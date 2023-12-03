@@ -1,0 +1,99 @@
+
+.index-container {
+    margin-top: 10px;
+}
+
+
+.index-sort {
+    text-align: right;
+    margin-right: 30px;
+    margin-bottom: 40px; /* Небольшой отступ между заголовком и блоком сортировки */
+}
+
+.index-sort-title {
+    font-size: 12px;
+}
+
+.index-sort-title:hover {
+    color: #007bff;
+}
+
+.index-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.index-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.index-table th,
+.index-table td {
+    border: 1px solid #007bff;
+    padding: 8px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.index-table th:hover {
+    background-color: #007bff;
+}
+
+.index-table th a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.index-table tbody tr:hover {
+    background-color: #007bff;
+}
+
+.index-table td:first-child {
+    font-weight: bold;
+}
+
+
+.index-card-message-card {
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 20px; /* Общий отступ внутри карточки */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для подчеркивания карточки */
+    margin-left: 20px; /* Отступ слева */
+    margin-right: 20px; /* Отступ справа */
+}
+
+.index-card-body {
+    padding: 20px; /* Отступы внутри карточки */
+}
+
+.index-card-title {
+    font-size: 1.5rem; /* Размер заголовка карточки */
+    word-wrap: break-word; /* Разрешить перенос текста на новую строку, если не помещается */
+}
+
+.index-card-nickname {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.index-card-text {
+    text-align: right;
+    margin-top: 10px; /* Отступ между текстовыми блоками */
+}
+
+.text-muted {
+    font-size: 0.8rem; /* Размер текста метки времени */
+    color: #999; /* Цвет текста метки времени */
+}
+
+
+.btn-primary {
+    margin-top: 20px;
+}
+
+
+
